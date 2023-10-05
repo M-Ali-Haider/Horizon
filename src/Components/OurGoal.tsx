@@ -24,14 +24,14 @@ const OurGoal = () => {
               <div className="goalicon"></div>
               <div className="goalicontext">
                 <h3>Authenticity</h3>
-                <p>We value the genuine essence of your brand. Our focus is on creating authentic experiences for your audience. From design elements to communication strategies, we ensure that your brand's unique identity shines through, fostering genuine connections with your customers.</p>
+                <p>We cherish your brand's authenticity, emphasizing genuine experiences. From design to communication, we highlight your unique identity, nurturing real connections with your customers.</p>
               </div>
             </div>
             <div className="OurGoaliconscard">
               <div className="goalicon"></div>
               <div className="goalicontext">
                 <h3>Pro Support</h3>
-                <p>Count on us for professional and dedicated support throughout your journey. Our team of experts is here to assist you at every step, providing proactive solutions, expert guidance, and timely assistance. Your success is our priority, and our proactive support ensures you're always in capable hands.</p>
+                <p>Rely on our dedicated experts throughout your journey. We provide proactive solutions, expert guidance, and timely assistance. Your success is our priority, ensuring you're always in capable hands.</p>
               </div>
             </div>
           </div>
