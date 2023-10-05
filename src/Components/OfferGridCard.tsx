@@ -1,6 +1,6 @@
 import "../Styles/OfferCard.css";
 
-const OfferGridCard = (props: { head: string; icon: any }) => {
+const OfferGridCard = (props: { head: string; icon: any; descr:string }) => {
   return (
     <div className="cardItem">
       <div className="imgCard" style={{}}>
@@ -8,7 +8,7 @@ const OfferGridCard = (props: { head: string; icon: any }) => {
       </div>
       <h4 className="CardHead">{props.head}</h4>
       <p className="CardText">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repel
+        {props.descr}
       </p>
     </div>
   );
