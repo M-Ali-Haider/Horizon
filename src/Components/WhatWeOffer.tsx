@@ -4,14 +4,14 @@ import Icons from "./importsvgs";
 
 const WhatWeOffer = () => {
   const ourOffers = [
-    { head: "Planning", icon: Icons.Planning ,descr:"Our meticulous planning process ensures your project starts on the right path. We analyze your requirements, strategize the workflow, and outline a roadmap for seamless execution."},
-    { head: "UI/UX Design", icon: Icons.UIUX, descr:"Immerse your audience in visually appealing and user-friendly interfaces. Our skilled designers blend creativity with functionality, crafting designs that enhance user experience and leave a lasting impression." },
-    { head: "Web Developer", icon: Icons.WebDev, descr:"Transforming concepts into fully functional websites is our expertise. Our web developers use cutting-edge technologies to build robust, scalable, and secure websites tailored to your specific needs." },
-    { head: "PHP Develop", icon: Icons.PHP, descr:"Harness the power of PHP with our expert developers. We create dynamic and interactive websites, utilizing PHP's versatility to deliver tailored solutions, robust databases, and seamless user experiences." },
-    { head: "React", icon: Icons.DataScience, descr:"Elevate your web applications with React.js development. Our proficient developers leverage this powerful library to create dynamic and responsive user interfaces, ensuring smooth interactions and engaging user experiences." },
-    { head: "Creativity", icon: Icons.Creativity, descr:"Unleashing creativity in every project, we craft unique and innovative solutions. From visually striking designs to inventive problem-solving, our creative team adds a touch of originality to every aspect of your project." },
-    { head: "Responsiveness", icon: Icons.Business, descr:"Your website should look and function flawlessly across all devices. We prioritize responsiveness, ensuring your site adapts seamlessly to various screen sizes, providing users with an optimal experience on desktops, tablets, and smartphones." },
-    { head: "Data Science", icon: Icons.UI, descr:"Dive into the world of data-driven insights with our data science expertise. We employ advanced analytics, machine learning, and AI algorithms to extract valuable information from your data, empowering you to make informed decisions and gain a competitive edge." },
+    { head: "Planning", icon: Icons.Planning ,descr:"Our meticulous planning process sets your project on the right track. We analyze your needs, strategize workflows, and create a seamless execution roadmap."},
+    { head: "UI/UX Design", icon: Icons.UIUX, descr:"Immerse your audience in visually appealing, user-friendly interfaces. Our skilled designers blend creativity and functionality for enhanced user experiences." },
+    { head: "Web Developer", icon: Icons.WebDev, descr:"We specialize in turning concepts into fully functional websites. Our developers use cutting-edge tech to build robust, secure sites tailored to your needs." },
+    { head: "PHP Develop", icon: Icons.PHP, descr:"Harness PHP's power with our expert developers. We create dynamic, interactive websites, delivering tailored solutions and robust databases." },
+    { head: "React", icon: Icons.DataScience, descr:"Elevate web apps with React.js. Our developers use this library to craft dynamic, responsive interfaces for engaging user experiences." },
+    { head: "Creativity", icon: Icons.Creativity, descr:"We infuse creativity into every project, crafting unique, innovative solutions. From striking designs to inventive problem-solving, our team adds originality to every aspect." },
+    { head: "Responsiveness", icon: Icons.Business, descr:"Ensure your site looks and works flawlessly on all devices. We prioritize responsiveness for optimal user experiences on desktops, tablets, and smartphones." },
+    { head: "Data Science", icon: Icons.UI, descr:"Unlock data-driven insights with our expertise. We use advanced analytics, ML, and AI to extract valuable information, empowering informed decisions for a competitive edge." },
   ];
 
   return (
