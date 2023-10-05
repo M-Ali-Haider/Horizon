@@ -1,0 +1,98 @@
+.BigCard{
+    height: 480px;
+    width: 85%;
+    background-color: var(--theam-color);
+    border-radius: 24px;
+    display: flex;
+    align-items: end;
+    color: white;
+    margin-bottom: 30px;
+}
+.ProjectNameBigCard{
+    font-size: 30px;
+}
+.BigCardImageFlex{
+    margin-top: 50px;
+    padding-left: 70px;
+    width: 40%;
+    height: 90%;
+}
+.BigCardflex div{
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.BigCardflex{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.projectinfo{
+    width: 400px;
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+    margin: 15px 0px;
+}
+
+.Visit{
+    display: flex;
+}
+.Visit h4{
+    margin-right: 30px;
+}
+.Visit p{
+    margin-right: 30px;
+    border-bottom: 1px solid rgba(245, 245, 245, 0.422);
+}
+.Visit p:hover{
+    cursor: pointer;
+}
+
+.BigCard img{
+    background-color: white;
+    padding: 10px;
+    border-radius:10px 10px 0 0 ;
+    width: 90%;
+    max-width: 700px;
+    margin-left: 20px;
+    height: 80%;
+    margin-right: 40px;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+    .BigCard img{
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    .BigCard{
+        min-height: 480px;
+        height: fit-content;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .BigCard img{
+        width: 80%;
+        border-radius: 25px;
+        margin: 20px 20px;
+    }
+    .BigCardImageFlex{
+        padding-left: 40px;
+        width: 90%;
+    }
+    .projectinfo{
+        width: 90%;
+        font-size: 15px;
+    }
+}

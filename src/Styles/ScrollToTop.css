@@ -1,0 +1,22 @@
+.scrolltotopbtn{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    background-color: mediumslateblue;
+    z-index: 20;
+    transition:0.3s;
+}
+.scrolltotopbtn img{
+    height: 30px;
+    width: 30px;
+    filter: invert(1);
+}
+.scrolltotopbtn:hover{
+    cursor: pointer;
+    user-select: none;
+}

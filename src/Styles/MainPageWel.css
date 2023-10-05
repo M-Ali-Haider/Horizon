@@ -1,0 +1,99 @@
+.Createbeter{
+    color: var(--theam-color);
+    display: flex;
+    position: relative;
+    font-size: 16px;
+    font-style: normal; 
+    font-weight: 800;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    user-select: none;
+}
+.GetStartedbtn{
+    width: 170px;
+    height: 50px;
+    background: var(--theam-color);
+    display: flex;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    border-radius: 5px;
+    transition: 0.2s;
+    user-select: none;
+}
+.GetStartedbtn:hover{
+    cursor: pointer;
+    filter: brightness(1.1);
+}
+.MainPageWel{
+    width: 600px;
+    padding-top: 120px;
+    padding-left: 35%;
+    transition: 0.2s;
+}
+.letbuild{
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 84px; /* 123.529% */
+    color: #231F40;
+    user-select: none;
+    margin-bottom: 10px;
+}
+
+.ittakes{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+}
+.btnarrow{
+    position: relative;
+}
+.arrow{
+    position: absolute;
+    top: -120px;
+    z-index: -1;
+    right: 130px;
+    user-select: none;
+}
+@media screen and (max-width:1500px){ 
+
+    
+    .MainPageWel{
+        padding-top: 60px;
+        padding-left: 100px;
+    }
+}
+
+@media screen and (max-width:700px){ 
+
+    
+    .MainPageWel{
+        padding-left: 30px;
+        width: 500px;
+    }
+     .letbuild{
+        font-size: 28px;
+        width: 70%;
+        line-height: 40px;
+     }   
+     .ittakes{
+        width: 60%;
+     }
+     .Createbeter{
+        font-size: 14px;
+        width: 60%;
+     }
+    .arrow{
+        display: none;
+    }
+    .GetStartedbtn{
+        height: 40px;
+        width: 140px;
+        font-size: 14px;
+    }
+}

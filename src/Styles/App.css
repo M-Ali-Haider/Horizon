@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Urbanist:wght@100;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Urbanist', sans-serif;
+}
+
+
+:root{
+    --theam-color: #525FE1;
+    --secondary-theam-color: #231F40;
+    --font-theam: 'Urbanist', sans-serif;
+}
+.mainbody{
+    min-height: 100vh;
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+}
+.mainPagewelc{
+    width: 50%;
+    height: 100%;
+}
+
+.img img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 500px;
+}
+.htmlphp{
+    position: absolute;
+    right: 0;
+    top: 25%;
+    margin-right: 60px;
+    z-index: -1;
+}
+
+
+@media screen and (max-width:1000px){    
+.htmlphp{
+    display: none;
+}
+}

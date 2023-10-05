@@ -1,0 +1,56 @@
+.cardItem{
+    min-width: 270px;
+    max-width: 400px;
+    height: 250px;
+    background: #F5F5F5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    flex-basis: 20%;
+    transition: 0.2s;
+}
+.cardItem:hover{
+    box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.147);
+    cursor: pointer;
+}
+
+.imgCard{
+    height: 35px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgCard img{
+    
+    height: 35px;
+    width: 30px;
+    color: red;
+}
+.CardHead{
+    margin-top: 10px;
+    color: #231F40;
+text-align: center;
+font-family: Urbanist;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 160% */
+}
+
+.CardText{
+    text-align: center;
+     margin-top: 10px;
+     width: 180px;
+     color: #6F6B80;
+text-align: center;
+font-family: Urbanist;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26.08px; /* 163% */
+}
