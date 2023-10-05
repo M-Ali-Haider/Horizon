@@ -54,10 +54,7 @@ const OurWork = () => {
       <div className="OurWorkText">
         <h2 className="OurWorkPride">Our Work, Our Pride</h2>
         <p className="OurWorkPridetext">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-          assumenda eius laboriosam consequuntur similique pariatur vero esse
-          minus exercitationem ullam dolor cum, libero voluptatem, facilis
-          cumque incidunt possimus sunt eaque.
+          Each project we undertake becomes a testament to our passion and expertise. Explore our portfolio to witness the innovative solutions, stunning designs, and seamless experiences that define our commitment to excellence. We take immense pride in every project we deliver, reflecting our unwavering dedication to quality and client satisfaction.
         </p>
       </div>
       <div className="BigCardList">
