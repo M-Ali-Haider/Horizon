@@ -7,13 +7,13 @@ import background3 from "../assets/background3.webp";
 const OurWork = () => {
   let ourworkarray = [
     {
-      ProjectName: "World News",
+      ProjectName: "Estrakt",
       ProjectInfo:
-        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, tempor invidunt ut labore et dolore.",
-      LaunchedIn: "October 2022",
-      Developed: "PHP, Laravel",
-      Category: "Ecommerce",
-      Visit: "worldnewsonline.com",
+      "A dynamic and feature-rich blogging website was developed, utilizing WordPress as the backend framework. The website's functionality was enhanced through the integration of WordPress plugins. Additionally, a custom WordPress theme was created, incorporating a combination of HTML, CSS, JavaScript, and PHP to deliver a distinctive and engaging user experience. The website is securely hosted on Hostinger servers, ensuring reliability and seamless visitor access.",
+      LaunchedIn: "July 2023",
+      Developed: "PHP, Wordpress",
+      Category: "Blogging",
+      Visit: "estrakt.com",
       img: WorldNews,
     },
     {
