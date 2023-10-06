@@ -13,6 +13,7 @@
     transition: 0.2s;
     box-sizing: border-box;
     height: 300px;
+    border: 1px solid black;
 }
 .cardItem:hover{
     box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.147);
@@ -26,6 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
 }
 .imgCard img{
     
