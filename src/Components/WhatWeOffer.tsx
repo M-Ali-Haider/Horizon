@@ -11,7 +11,7 @@ const WhatWeOffer = () => {
     { head: "React", icon: Icons.DataScience, descr:"Elevate web apps with React.js. Our developers use this library to craft dynamic, responsive interfaces for engaging user experiences." },
     { head: "Creativity", icon: Icons.Creativity, descr:"We infuse creativity into every project, crafting unique, innovative solutions. From striking designs to inventive problem-solving." },
     { head: "Responsiveness", icon: Icons.Business, descr:"Ensure your site looks and works flawlessly on all devices. We prioritize responsiveness for optimal user experiences on desktops, tablets, and smartphones." },
-    { head: "Data Science", icon: Icons.UI, descr:"Unlock data-driven insights with our expertise. We use advanced analytics, ML, and AI to extract valuable information, empowering informed decisions for a competitive edge." },
+    { head: "Data Science", icon: Icons.UI, descr:"Unlock data-driven insights with our expertise. We use advanced analytics, ML, and AI to extract valuable information." },
   ];
 
   return (
