@@ -4,6 +4,7 @@ import WorldNews from "../assets/WorldNews.webp";
 import OnlineShop from "../assets/OnlineShop.webp";
 import background3 from "../assets/background3.webp";
 import estrakt from  "../assets/estrakt.webp";
+import sql from "../assets/sql7.webp";
 
 const OurWork = () => {
   let ourworkarray = [
@@ -42,10 +43,10 @@ const OurWork = () => {
       ProjectInfo:
       "Crafted an impressive music streaming platform with seamless performance, leveraging a local server powered by Xampp. Key features encompass User Authentication, Streamlined Music Playback, Engaging User Interface and Experience, Personalized Playlist Creation, Song Favoriting, and Access to Albums, Artists, and Playlists.",
       LaunchedIn: "October 2022",
-      Developed: "PHP",
+      Developed: "PHP, XAMPP",
       Category: "Music",
       Visit: "linkinparkonline.com",
-      img: OnlineShop,
+      img: sql,
     },
   ];
 
