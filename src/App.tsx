@@ -10,7 +10,7 @@ import Footer from "./Components/Footer";
 import GetStartedNow from "./Components/GetStartedNow";
 import WhyChooseUs from "./Components/WhyChooseUs";
 import ScrollToTop from "./Components/ScrollToTop";
-import STLViewer from './STLViewer';
+
 
 
 const App = () => {
@@ -29,7 +29,6 @@ const App = () => {
         <Header />
         <div className="mainPagewelc">
           <MainPageWel />
-          <STLViewer />
           <img className="htmlphp" src={htmlphp} alt="" />
         </div>
       </div>
