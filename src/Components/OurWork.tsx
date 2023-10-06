@@ -3,7 +3,7 @@ import BigCard from "./BigCard";
 import WorldNews from "../assets/WorldNews.webp";
 import OnlineShop from "../assets/OnlineShop.webp";
 import background3 from "../assets/background3.webp";
-import estrakt from "../assests/estrakt.webp";
+import estrakt from  "../assets/estrakt.webp";
 
 const OurWork = () => {
   let ourworkarray = [
