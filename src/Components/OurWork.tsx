@@ -3,6 +3,7 @@ import BigCard from "./BigCard";
 import WorldNews from "../assets/WorldNews.webp";
 import OnlineShop from "../assets/OnlineShop.webp";
 import background3 from "../assets/background3.webp";
+import estrakt from "../assests/estrakt.webp";
 
 const OurWork = () => {
   let ourworkarray = [
@@ -14,7 +15,7 @@ const OurWork = () => {
       Developed: "PHP, Wordpress",
       Category: "Blogging",
       Visit: "estrakt.com",
-      img: WorldNews,
+      img: estrakt,
     },
     {
       ProjectName: "Online Shop",
