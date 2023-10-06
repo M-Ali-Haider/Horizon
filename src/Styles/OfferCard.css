@@ -21,8 +21,8 @@
 }
 
 .imgCard{
-    min-height:25%;
-    max-height: 25%;
+    min-height:30%;
+    max-height: 30%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -45,15 +45,14 @@
     line-height: 32px; /* 160% */
     min-height:15%;
     max-height: 15%;
-    padding-bottom: 10px;
     border: 1px solid black;
 }
 
 .CardText{
     text-align: center;
     width: 75%;
-    min-height: 60%;
-    max-height: 60%;
+    min-height: 55%;
+    max-height: 55%;
     color: #6F6B80;
     text-align: center;
     font-family: Urbanist;
