@@ -21,7 +21,8 @@
 }
 
 .imgCard{
-    height:25%;
+    min-height:25%;
+    max-height: 25%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -41,7 +42,8 @@
     font-style: normal;
     font-weight: 700;
     line-height: 32px; /* 160% */
-    height:10%;
+    min-height:10%;
+    max-height: 10%;
 }
 
 .CardText{
@@ -54,5 +56,4 @@
     font-style: normal;
     font-weight: 400;
     line-height: 26.08px; /* 163% */
-    flex: 1;
 }
