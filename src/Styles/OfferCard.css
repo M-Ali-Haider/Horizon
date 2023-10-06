@@ -12,7 +12,8 @@
     flex-basis: 20%;
     transition: 0.2s;
     box-sizing: border-box;
-    height: 300px;
+    min-height: 300px;
+    max-height: 300px;
     border: 1px solid black;
 }
 .cardItem:hover{
