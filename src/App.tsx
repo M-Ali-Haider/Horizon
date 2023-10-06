@@ -10,7 +10,8 @@ import Footer from "./Components/Footer";
 import GetStartedNow from "./Components/GetStartedNow";
 import WhyChooseUs from "./Components/WhyChooseUs";
 import ScrollToTop from "./Components/ScrollToTop";
-import ThreeDModel from "./Components/ThreeD";
+import STLViewer from './STLViewer';
+
 
 const App = () => {
   const [buttonvisible, Setbuttonvisible] = useState(false);
@@ -28,7 +29,7 @@ const App = () => {
         <Header />
         <div className="mainPagewelc">
           <MainPageWel />
-          <ThreeDModel />
+          <STLViewer />
           <img className="htmlphp" src={htmlphp} alt="" />
         </div>
       </div>
