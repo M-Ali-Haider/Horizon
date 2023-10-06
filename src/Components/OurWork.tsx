@@ -38,12 +38,12 @@ const OurWork = () => {
       img: WorldNews,
     },
     {
-      ProjectName: "Online Shop",
+      ProjectName: "SQLify",
       ProjectInfo:
-        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, tempor invidunt ut labore et dolore.",
+      "Crafted an impressive music streaming platform with seamless performance, leveraging a local server powered by Xampp. Key features encompass User Authentication, Streamlined Music Playback, Engaging User Interface and Experience, Personalized Playlist Creation, Song Favoriting, and Access to Albums, Artists, and Playlists.",
       LaunchedIn: "October 2022",
-      Developed: "PHP, Laravel",
-      Category: "Ecommerce",
+      Developed: "PHP",
+      Category: "Music",
       Visit: "linkinparkonline.com",
       img: OnlineShop,
     },
