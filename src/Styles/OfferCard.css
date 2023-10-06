@@ -11,8 +11,8 @@
     margin-left: 10px;
     flex-basis: 20%;
     transition: 0.2s;
-    min-height: 300px;
-    max-height: 300px;
+    min-height: 325px;
+    max-height: 325px;
 }
 .cardItem:hover{
     box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.147);
