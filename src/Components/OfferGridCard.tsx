@@ -7,9 +7,9 @@ const OfferGridCard = (props: { head: string; icon: any; descr:string }) => {
         <img src={props.icon} alt="" loading="lazy" />
       </div>
       <h4 className="CardHead">{props.head}</h4>
-      <p className="CardText">
+      <div className="CardText">
         {props.descr}
-      </p>
+      </div>
     </div>
   );
 };
