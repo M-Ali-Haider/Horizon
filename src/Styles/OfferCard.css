@@ -59,5 +59,6 @@
     font-weight: 400;
     line-height: 26.08px; /* 163% */
     border: 1px solid red;
-    height: 250px;
+    min-height: 250px;
+    max-height: 250px;
 }
