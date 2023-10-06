@@ -46,7 +46,6 @@
 
 .CardText{
     text-align: center;
-    margin-top: 10px;
     width: 180px;
     color: #6F6B80;
     text-align: center;
@@ -55,4 +54,5 @@
     font-style: normal;
     font-weight: 400;
     line-height: 26.08px; /* 163% */
+    flex: 1;
 }
