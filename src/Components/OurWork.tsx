@@ -11,7 +11,7 @@ const OurWork = () => {
     {
       ProjectName: "Estrakt",
       ProjectInfo:
-      "A dynamic and feature-rich blogging website was developed, utilizing WordPress as the backend framework. The website's functionality was enhanced through the integration of WordPress plugins. Additionally, a custom WordPress theme was created, incorporating a combination of HTML, CSS, JavaScript, and PHP to deliver a distinctive and engaging user experience. The website is securely hosted on Hostinger servers, ensuring reliability and seamless visitor access.",
+      "We built a dynamic WordPress blogging site, enhancing it with plugins and a custom theme crafted with HTML, CSS, JavaScript, and PHP. Hosted securely on Hostinger servers for seamless access and reliability.",
       LaunchedIn: "July 2023",
       Developed: "PHP, Wordpress",
       Category: "Blogging",
