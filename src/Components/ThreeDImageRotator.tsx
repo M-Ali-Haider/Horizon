@@ -51,7 +51,7 @@ const ThreeDImageRotator: React.FC = () => {
     animate();
   }, []);
 
-  return <div ref={containerRef} style={{ width: '500px', height: '500px', border:'1px solid black' }}></div>;
+  return <div ref={containerRef} style={{ width: '100%', height: '100vh'}}></div>;
 };
 
 export default ThreeDImageRotator;
