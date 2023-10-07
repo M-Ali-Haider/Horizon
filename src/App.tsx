@@ -39,6 +39,7 @@ const App = () => {
       <GetStartedNow />
       <Footer />
       <ScrollToTop visible={buttonvisible} />
+      <ThreeDImageRotator />
     </Fragment>
   );
 };
