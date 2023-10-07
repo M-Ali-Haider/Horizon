@@ -25,11 +25,9 @@
 .mainPagewelc{
     width: 50%;
     height: 100%;
-    border: 1px solid black;
+    
 }
-.mainPagewelc div{
-    border: 1px solid black;
-}
+
 
 .img img{
     background-size: cover;
