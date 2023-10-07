@@ -1,6 +1,8 @@
 // src/components/ThreeDImageRotator.tsx
 import React, { useEffect, useRef } from 'react';
 import * as THREE from 'three';
+import htmlphpImage from './htmlphp.webp';
+
 
 const ThreeDImageRotator: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -26,7 +28,7 @@ const ThreeDImageRotator: React.FC = () => {
 
     // Create a cube with your image as a texture
     const textureLoader = new THREE.TextureLoader();
-    const texture = textureLoader.load('htmlphp.webp');
+    const texture = textureLoader.load(htmlphpImage);
     const geometry = new THREE.BoxGeometry(1, 1, 1);
     const material = new THREE.MeshBasicMaterial({ map: texture });
     const cube = new THREE.Mesh(geometry, material);
