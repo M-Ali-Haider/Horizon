@@ -1,6 +1,5 @@
 import { Fragment, useState } from "react";
 import Header from "./Components/Header";
-import ThreeDImageRotator from "./Components/ThreeDImageRotator";
 import MainPageWel from "./Components/MainPageWel";
 import "./Styles/App.css";
 import htmlphp from "./assets/htmlphp.webp";
@@ -39,7 +38,6 @@ const App = () => {
       <GetStartedNow />
       <Footer />
       <ScrollToTop visible={buttonvisible} />
-      <ThreeDImageRotator />
     </Fragment>
   );
 };
