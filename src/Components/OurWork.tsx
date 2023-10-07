@@ -1,10 +1,10 @@
 import "../Styles/OurWork.css";
 import BigCard from "./BigCard";
-import WorldNews from "../assets/WorldNews.webp";
 import OnlineShop from "../assets/OnlineShop.webp";
 import background3 from "../assets/background3.webp";
 import estrakt from  "../assets/estrakt.webp";
 import sql from "../assets/sql7.webp";
+import akcinema from "../assets/AKCinema.webp";
 
 const OurWork = () => {
   let ourworkarray = [
@@ -29,14 +29,14 @@ const OurWork = () => {
       img: OnlineShop,
     },
     {
-      ProjectName: "World News",
+      ProjectName: "AK Cinema",
       ProjectInfo:
-        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, tempor invidunt ut labore et dolore.",
-      LaunchedIn: "October 2022",
-      Developed: "PHP, Laravel",
+        "Our Cinema Movie Website project simplifies movie booking, with easy account creation, real-time seat checks, and efficient digital ticketing. We showcase web development expertise and a commitment to user excellence. Transform your cinema business today!",
+      LaunchedIn: "September 2021",
+      Developed: "PHP, XAMPP",
       Category: "Ecommerce",
       Visit: "worldnewsonline.com",
-      img: WorldNews,
+      img: akcinema,
     },
     {
       ProjectName: "SQLify",
