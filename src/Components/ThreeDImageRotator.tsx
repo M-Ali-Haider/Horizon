@@ -26,7 +26,7 @@ const ThreeDImageRotator: React.FC = () => {
 
     // Create a cube with your image as a texture
     const textureLoader = new THREE.TextureLoader();
-    const texture = textureLoader.load('../assets/htmlphp.webp');
+    const texture = textureLoader.load('htmlphp.webp');
     const geometry = new THREE.BoxGeometry(1, 1, 1);
     const material = new THREE.MeshBasicMaterial({ map: texture });
     const cube = new THREE.Mesh(geometry, material);
