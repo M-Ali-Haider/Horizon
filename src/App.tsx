@@ -28,7 +28,6 @@ const App = () => {
         <Header />
         <div className="mainPagewelc">
           <MainPageWel />
-          
           <img className="htmlphp" src={htmlphp} alt="" />
         </div>
       </div>
