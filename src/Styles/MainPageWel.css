@@ -33,6 +33,10 @@
     padding-top: 120px;
     padding-left: 35%;
     transition: 0.2s;
+    border: 1px solid black;
+}
+.MainPageWel div{
+    border: 1px solid black;
 }
 .letbuild{
     font-size: 68px;
