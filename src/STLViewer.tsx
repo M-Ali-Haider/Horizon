@@ -1,6 +1,7 @@
 // src/components/ThreeDImage.tsx
 import React, { useEffect, useRef } from 'react';
 import * as THREE from 'three';
+import DaImage from "./assets/htmlphp.webp";
 
 const ThreeDImage: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -11,7 +12,7 @@ const ThreeDImage: React.FC = () => {
     const renderer = new THREE.WebGLRenderer();
     const geometry = new THREE.PlaneGeometry(1, 1); // Adjust the dimensions as needed
     const material = new THREE.MeshBasicMaterial({
-      map: new THREE.TextureLoader().load('assets/htmlpphp.webp'),
+      map: new THREE.TextureLoader().load(DaImage),
     });
 
     const mesh = new THREE.Mesh(geometry, material);
