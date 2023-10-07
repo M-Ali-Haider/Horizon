@@ -10,6 +10,7 @@ import Footer from "./Components/Footer";
 import GetStartedNow from "./Components/GetStartedNow";
 import WhyChooseUs from "./Components/WhyChooseUs";
 import ScrollToTop from "./Components/ScrollToTop";
+import ThreeDImageRotator from "./Components/ThreeDImageRotator";
 
 const App = () => {
   const [buttonvisible, Setbuttonvisible] = useState(false);
