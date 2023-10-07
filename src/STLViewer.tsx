@@ -1,7 +1,6 @@
-// src/components/ThreeDImage.tsx
 import React, { useEffect, useRef } from 'react';
 import * as THREE from 'three';
-import DaImage from "./assets/htmlphp.webp";
+import DaImage from './assets/htmlphp.webp';
 
 const ThreeDImage: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
